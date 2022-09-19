@@ -1,0 +1,32 @@
+NAME OF APP IN HEROKU: campsiteReview
+
+npm init -y    to create json package
+
+npm i express mongoose ejs
+
+
+nodemon app.js 			to run the app and don't have to constantly restart to run updated app
+
+nodemon seedfile.js		to run and obtain database. Will close by itself (cause we coded it to)
+
+npm i method-override		to use methods that aren't get and post (ex.put)
+
+npm i ejs-mate			
+
+npm i joi				downloads data validator
+
+npm i express-session		downloads to use session (same thing as cookies but data is stored in server instead of user's browser)
+
+npm i connect-flash		connects flash to app
+
+npm i passport passport-local passport-local-mongoose			install all three for authentication
+npm i multer									parse/handle multipart form data, (ex. uploading files)
+npm i dotenv									able to use env files that should be hidden from users
+npm i cloudinary	multer-storage-cloudinary				connects multer and website to cloudinary
+npm install @mapbox/mapbox-sdk						connects mapbox to node
+npm i express-mongo-sanitize							removes keys with $ or . so they aren't mongo commands users can add to input to hack
+npm i sanitize-html								does the same thing as above but for html. Strips html tags away 
+npm i helmet									package of 11 middleware for extra security that has to do with changing HTTP headers
+npm i connect-mongo								stores sessions in mongo instead of memory using Express
+
+node seeds/index.js								restarts database
